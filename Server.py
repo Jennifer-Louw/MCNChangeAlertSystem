@@ -12,8 +12,8 @@ message_sent = 0
 # Initialise SNS client
 client = boto3.client(
     "sns",
-    aws_access_key_id = 'AKIAQUD5HU6UZKPUM74V',
-    aws_secret_access_key = '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',
+    aws_access_key_id = 'aws access key',
+    aws_secret_access_key = 'aws secret access key',
     region_name = 'ap-southeast-2'
 )
 
